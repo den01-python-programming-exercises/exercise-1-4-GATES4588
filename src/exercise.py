@@ -1,6 +1,8 @@
-def main():
+def user_input():
     #write your code below this line
-    message = input("Write a message...")
+    input_string = input('Write a message:')
+    print(input_string)
+
 
 if __name__ == '__main__':
-    main()
+    user_input()
